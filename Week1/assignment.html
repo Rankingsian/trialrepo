@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about HTML5, accessibility best practices, and SEO basics in a well-structured example page.">
+    <meta name="keywords" content="HTML5, accessibility, SEO, semantic HTML, web development">
+    <meta name="author" content="Your Name">
+    <title>HTML5 Accessibility & SEO Example</title>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <h1>HTML5 Accessibility & SEO Basics</h1>
+        <p>Building a web page that is both human-friendly and search-engine-friendly.</p>
+    </header>
+
+    <!-- Navigation Landmark -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#seo">SEO</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>This page demonstrates how to use HTML5 semantic tags to create a clear structure, improve accessibility, and optimize for search engines.</p>
+        </section>
+
+        <!-- Accessibility Section -->
+        <section id="accessibility" aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Accessibility Best Practices</h2>
+            <p>Accessibility ensures that websites are usable by people of all abilities. Semantic HTML tags, descriptive link text, and ARIA labels help assistive technologies understand content structure.</p>
+            <article>
+                <h3>Why Accessibility Matters</h3>
+                <p>It improves the user experience for everyone, meets legal requirements, and expands your audience reach.</p>
+            </article>
+        </section>
+
+        <!-- SEO Section -->
+        <section id="seo" aria-labelledby="seo-heading">
+            <h2 id="seo-heading">SEO Fundamentals</h2>
+            <p>Search Engine Optimization (SEO) helps improve the visibility of a web page in search engine results.</p>
+            <article>
+                <h3>On-Page SEO Tips</h3>
+                <ul>
+                    <li>Use descriptive and keyword-rich titles.</li>
+                    <li>Structure content with proper heading levels.</li>
+                    <li>Add meta descriptions for better click-through rates.</li>
+                    <li>Ensure your page loads quickly and is mobile-friendly.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <address>
+                Email: <a href="mailto:you@example.com">you@example.com</a><br>
+                Location: Nairobi, Kenya
+            </address>
+        </section>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
